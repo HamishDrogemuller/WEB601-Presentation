@@ -12,7 +12,7 @@ def about():
 
 @app.route('/<name>')
 def user(name):
-    return f"Hello {name}!"
+    return f"Hello and welcome <h1>{name}!</h1>"
 
 @app.route("/admin")
 def admin():
